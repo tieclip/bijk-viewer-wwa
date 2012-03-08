@@ -57,6 +57,7 @@
     <Content Include="css\default.css" />
     <Content Include="css\itemDetailPage.css" />
     <Content Include="css\groupedItemsPage.css" />
+    <Content Include="html\accountSettingsFlyout.html" />
     <Content Include="html\groupDetailPage.html" />
     <Content Include="html\itemDetailPage.html" />
     <Content Include="html\groupedItemsPage.html" />

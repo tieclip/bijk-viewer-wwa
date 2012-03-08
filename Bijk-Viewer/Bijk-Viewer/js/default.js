@@ -27,5 +27,10 @@
         // eventObject.setPromise(). 
     };
 
+    app.onsettings = function (e) {
+        e.detail.applicationcommands = { "accountDiv": { title: "Account", href: "/html/accountSettingsFlyout.html" } };
+        WinJS.UI.SettingsFlyout.populateSettings(e);
+    }
+
     app.start();
 })();
