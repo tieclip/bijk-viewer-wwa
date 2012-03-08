@@ -2,8 +2,8 @@
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
   <Identity Name="1a387d7c-c822-4d65-b5ad-ecff4f84802a" Version="1.0.0.0" Publisher="CN=Kevin" />
   <Properties>
-    <DisplayName>BIJK_Viewer</DisplayName>
-    <Description>BIJK_Viewer</Description>
+    <DisplayName>Bijk_Viewer</DisplayName>
+    <Description>Bijk_Viewer</Description>
     <PublisherDisplayName>Kevin</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 11 Express for Windows 8
-Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "BIJK-Viewer", "BIJK-Viewer\BIJK-Viewer.jsproj", "{1A387D7C-C822-4D65-B5AD-ECFF4F84802A}"
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "Bijk-Viewer", "Bijk-Viewer\Bijk-Viewer.jsproj", "{1A387D7C-C822-4D65-B5AD-ECFF4F84802A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
