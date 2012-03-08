@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bijk account settings flyout</title>
+    <link href="/css/default.css" rel="stylesheet">
+    <script src="/js/accountSettingsFlyout.js"></script>
+</head>
+<body>
+    <!-- BEGINSETTINGFLYOUT -->
+    <div id="accountDiv" data-win-control="WinJS.UI.SettingsFlyout" aria-label="Bijk Account Settings" data-win-options="{width:'wide'}">
+        <div class="win-header win-ui-dark">
+            <button type="button" onclick="WinJS.UI.SettingsFlyout.show()" class="win-backbutton"></button>
+            <div class="win-label">Bijk Account Settings</div>
+        </div>                
+        <div class="win-content">
+            <div>Bijk API Key</div>
+            <input id="apiKeyInput" type="text" aria-label="Enter Bijk API key" />
+        </div>
+    </div>
+    <!-- ENDSETTINGSFLYOUT -->
+</body>
+</html>
