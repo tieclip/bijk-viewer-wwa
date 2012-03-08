@@ -75,3 +75,11 @@
             margin-left: 29px;
         }
 }
+
+.win-ui-dark .win-appbar {
+    background-color: rgb(0, 96, 163);
+}
+
+.win-appbar {
+    background-color: rgb(0, 96, 163);
+}

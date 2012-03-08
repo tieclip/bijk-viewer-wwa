@@ -1,49 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-
-  <Identity
-    Name="1a387d7c-c822-4d65-b5ad-ecff4f84802a"
-    Version="1.0.0.0"
-    Publisher="CN=Kevin" />
-
+  <Identity Name="1a387d7c-c822-4d65-b5ad-ecff4f84802a" Version="1.0.0.0" Publisher="CN=Kevin" />
   <Properties>
     <DisplayName>BIJK_Viewer</DisplayName>
     <Description>BIJK_Viewer</Description>
     <PublisherDisplayName>Kevin</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
-
   <Prerequisites>
     <OSMinVersion>6.2</OSMinVersion>
     <OSMaxVersionTested>6.2</OSMaxVersionTested>
   </Prerequisites>
-
   <Resources>
     <Resource Language="x-generate" />
   </Resources>
-
   <Applications>
-    <Application 
-      Id="App"
-      StartPage="default.html">
-
-      <VisualElements
-        DisplayName="BIJK_Viewer"
-        Logo="images\logo.png"
-        SmallLogo="images\smalllogo.png"
-        Description="BIJK_Viewer"
-        ForegroundText="light"
-        BackgroundColor="#000000">
-
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="Bijk Viewer" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Bijk Viewer allows you to view all of your Bijk graphs right on your Windows 8 device." ForegroundText="light" BackgroundColor="#0060A3">
         <DefaultTile ShowName="allLogos" />
         <SplashScreen Image="images\splashscreen.png" />
-
       </VisualElements>
     </Application>
   </Applications>
-
   <Capabilities>
     <Capability Name="internetClient" />
   </Capabilities>
-
 </Package>
