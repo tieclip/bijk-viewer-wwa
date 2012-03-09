@@ -4,21 +4,21 @@
 
     var page = WinJS.UI.Pages.define("/html/accountSettingsFlyout.html", {
         ready: function (element, options) {
+            var saveApiKeyButton = document.getElementById("saveApiKeyButton");
+            saveApiKeyButton.addEventListener("click", saveApiKey, false);
+
             var apiKeyInput = document.getElementById("apiKeyInput");
-            apiKeyInput.addEventListener("blur", apiKeyInputBlur, false);
-
-            if ("bijkApiKey" in applicationData.roamingSettings) {
-                apiKeyInput.value = "Hi";
+            var apiKey = settings.getApiKey();
+            if (apiKey) {
+                apiKeyInput.value = apiKey
             }
-            else {
-                apiKeyInput.value = "Low";
-            }
-
-            window.addEventListener("beforeunload", apiKeyInputBlur);
         }
     });
 
-    function apiKeyInputBlur() {
-        debugger;
+    function saveApiKey() {
+        var oldApiKey = settings.getApiKey();
+
+        var apiKeyInput = document.getElementById("apiKeyInput");
+        settings.setApiKey(apiKeyInput.value);
     }
 })();

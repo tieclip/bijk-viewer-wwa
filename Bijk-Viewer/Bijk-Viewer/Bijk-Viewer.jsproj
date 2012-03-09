@@ -51,6 +51,7 @@
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="js\settings.js" />
     <None Include="Bijk-Viewer_TemporaryKey.pfx" />
     <Content Include="default.html" />
     <Content Include="css\groupDetailPage.css" />
@@ -66,6 +67,7 @@
     <Content Include="images\splashscreen.png" />
     <Content Include="images\storelogo.png" />
     <Content Include="js\accountSettingsFlyout.js" />
+    <Content Include="js\bijkAPI.js" />
     <Content Include="js\groupDetailPage.js" />
     <Content Include="js\default.js" />
     <Content Include="js\navigator.js" />
