@@ -7,7 +7,7 @@
     var ui = WinJS.UI;
     var utils = WinJS.Utilities;
 
-    WinJS.Namespace.define("BIJK_Viewer", {
+    WinJS.Namespace.define("Bijk_Viewer", {
         PageControlNavigator: WinJS.Class.define(
         // Define the constructor function for the PageControlNavigator.
             function (element, options) {
