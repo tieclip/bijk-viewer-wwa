@@ -8,20 +8,17 @@
             saveApiKeyButton.addEventListener("click", saveApiKey, false);
 
             var apiKeyInput = document.getElementById("apiKeyInput");
-            var apiKey = applicationData.roamingSettings.values["bijkApiKey"];
+            var apiKey = settings.getApiKey();
             if (apiKey) {
                 apiKeyInput.value = apiKey
-            }
-            else {
-                apiKeyInput.value = "";
             }
         }
     });
 
     function saveApiKey() {
-        var oldApiKey = applicationData.roamingSettings.values["bijkApiKey"];
+        var oldApiKey = settings.getApiKey();
 
         var apiKeyInput = document.getElementById("apiKeyInput");
-        applicationData.roamingSettings.values["bijkApiKey"] = apiKeyInput.value;
+        settings.setApiKey(apiKeyInput.value);
     }
 })();
